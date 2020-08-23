@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Billing_module</title>
+    <link rel="stylesheet" type="text/css" href="css\invoicestyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Girassol&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="headdiv">
+      <h1>Invoice</h1>
+    </div>
+    <hr />
+    <br>
+    <div class="customerdetails">
+      <h3>Customer Name: &emsp;&emsp;<span><input type="text"  placeholder="//autocomplete yet to do"required/></span></h3>
+      <h5><a href="#">Billing Address</a></h5>
+      <h5><a href="#">Delivery Address</a></h5>
+    </div>
+    <br>
+    <hr />
+    <br />
+    <div class="invoicedetails">
+      <h3>Invoice No:&emsp;&emsp;<span><input type="text"  placeholder="//autogenerate yet to do" required/></span></h3>
+      <h3>Order No:&emsp;&emsp;<span>&ensp;<input type="text" /></span></h3>
+      <h3>Order Date: &emsp;&ensp;<span><input type="date" required/></span></h3>
+      <h3>Expected Delivery Date: &emsp;&ensp;<span><input type="date" required/></span>
+    </div>
+    <br />
+    <hr />
+    <br />
+    <div class="salesperson">
+      <h3>SalesPerson:&emsp;&emsp;<span><input type="text"  placeholder="//autoComplete yet to do" /></span></h3>
+    </div>
+    <br>
+    <hr />
+    <br />
+    <div class="invoiceitems">
+      <table >
+        <th>
+            Item name
+        </th>
+        <th>
+            Quantity
+        </th>
+        <th>
+            Rate
+        </th>
+        <th>
+            Discount
+        </th>
+        <th>
+            Amount
+        </th>
+        <tr>
+          <td>
+            <input type="text" placeholder="//autoComplete yet to do" />
+          </td>
+          <td>
+            <input type="number" value="0"/>
+          </td>
+          <td>
+            <input type="number"  value="0"/>
+          </td>
+          <td>
+            <input type="number"  value="0"/>
+          </td>
+          <td>
+            <input type="number"  value="0"/>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="text" placeholder="//autoComplete yet to do" />
+          </td>
+          <td>
+            <input type="number" value="0"/>
+          </td>
+          <td>
+            <input type="number"  value="0"/>
+          </td>
+          <td>
+            <input type="number"  value="0"/>
+          </td>
+          <td>
+            <input type="number"  value="0"/>
+          </td>
+        </tr>
+      </table>
+      <button class="Btn Btnadd"><b>Add</b></button><br /><br />
+      </div>
+      <div class="Customerpreference">
+        <textarea rows="9" cols="45" placeholder="Customer Preferences like no. of items per package ... "></textarea>
+      </div>
+      <div class="Subtotal">
+        <h4>Sub Total &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span>0.00</span></h4>
+        <input type="text" value="Round Off" />&emsp;&emsp;<input type="number" value="0" />
+        <h3>Grand Total&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span>0.00</span></h3>
+      </div>
+      <br>
+      <hr />
+      <center>
+        <button class="Btn Btnok"><b>OK</b></button>
+        <button class="Btn Btnreset"><b>RESET</b></button>
+        <button class="Btn Btncancel"><b>CANCEL</b></button>
+      </center>
+  </body>
+</html>

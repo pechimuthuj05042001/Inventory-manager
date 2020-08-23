@@ -1,0 +1,93 @@
+body{
+  background-color: #edf1f7;
+  margin:15px;
+  margin-left: 25px;
+  font-family: serif;
+  font-size: 15px;
+}
+
+input{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 170px;
+    height: 19px;
+}
+
+.headdiv{
+  font-size: 18px;
+}
+
+
+a:link {
+  padding: 8px 30px;
+  color: red;
+}
+
+
+a:hover {
+  color: green;
+}
+
+
+a:active {
+  color: blue;
+}
+
+th,td{
+  font-size: 15px;
+  font-family: serif;
+  padding: 10px;
+}
+
+
+.Customerpreference{
+  padding: 10px;
+  font-size: 12px;
+  font-family: serif;
+}
+
+.Subtotal{
+  background-color: #b7c6e1;
+}
+
+.closediv{
+}
+
+
+
+.Btn{
+  background-color: #E6E6FA;
+  border: 1px solid grey;
+  color: black;
+  transition-duration: 0.4s;
+  padding: 13px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
+
+
+}
+.Btnadd:hover{
+  background-color: #4CAF50;
+  border: 2px solid #4CAF50;
+  color: white;
+}
+
+.Btnreset:hover{
+  background-color: #008CBA;
+  border: 2px solid #008CBA;
+  color: white;
+}
+
+.Btncancel:hover{
+  background-color: #f44336;
+  border: 2px solid #f44336;
+  color: white;
+}
+
+.Btnok:hover{
+  background-color: #4CAF50;
+  border: 2px solid #4CAF50;
+  color: white;
+}
